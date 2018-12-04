@@ -8,11 +8,10 @@
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
     "lerna": "^3.5.1",
-    "ts-loader": "^5.3.1"
+    "typescript": "^3.2.1"
   },
   "dependencies": {
     "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "typescript": "^3.2.1"
+    "react-dom": "^16.6.3"
   }
 }
