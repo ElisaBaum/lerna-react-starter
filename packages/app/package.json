@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=development parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "common": "^1.0.0",
+    "parcel-bundler": "^1.10.3"
+  }
+}
