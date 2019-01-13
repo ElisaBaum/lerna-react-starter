@@ -1,1 +1,1 @@
-export * from "./components/title/Title";
+throw new Error('Please import components directly!');

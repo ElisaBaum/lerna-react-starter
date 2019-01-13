@@ -1,15 +1,10 @@
 {
   "name": "common",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "scripts": {
-    "start": "webpack --mode=development"
-  },
-  "author": "",
+  "author": "Elisa Baum",
   "license": "ISC",
+  "dependencies": {
+  },
   "devDependencies": {
-    "ts-loader": "^5.3.1",
-    "webpack": "^4.26.1",
-    "webpack-cli": "^3.1.2"
   }
 }

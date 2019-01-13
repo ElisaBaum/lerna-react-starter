@@ -1,5 +1,6 @@
 import * as React from 'react';
-import {Title} from "common/components/title/Title";
+
+import {Title} from 'common/lib/layout/title/Title';
 
 export const App = () => {
   return (
@@ -8,5 +9,5 @@ export const App = () => {
           Hello World!
         </Title>
       </div>
-  )
+  );
 };

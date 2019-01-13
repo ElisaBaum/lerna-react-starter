@@ -2,12 +2,24 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "start": "lerna run --parallel start"
+    "lerna": "lerna bootstrap",
+    "start": "lerna bootstrap && lerna run --parallel start",
+    "build": "lerna bootstrap && lerna run build",
+    "test": "lerna bootstrap && jest --env=jsdom",
+    "lint": "tslint -c tslint.json --project ."
   },
   "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/jest": "^23.3.12",
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
     "lerna": "^3.5.1",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-react": "^3.6.0",
     "typescript": "^3.2.1"
   },
   "dependencies": {

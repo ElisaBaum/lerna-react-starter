@@ -12,11 +12,12 @@
     "pretty": true
   },
   "include": [
-    "lib",
-    "index.ts"
+    "config",
+    "packages"
   ],
   "exclude": [
     "node_modules",
-    "lib/**/*.spec.ts*"
+    "packages/**/node_modules",
+    "packages/**/*.spec.ts*"
   ]
 }
