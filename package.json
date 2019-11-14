@@ -19,7 +19,7 @@
     "lerna": "^3.5.1",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.1",
-    "tslint-react": "^3.6.0",
+    "tslint-react": "^4.1.0",
     "typescript": "^3.2.1"
   },
   "dependencies": {
