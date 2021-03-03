@@ -16,7 +16,7 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "jest": "^23.6.0",
-    "lerna": "^3.5.1",
+    "lerna": "^4.0.0",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.1",
     "tslint-react": "^3.6.0",
